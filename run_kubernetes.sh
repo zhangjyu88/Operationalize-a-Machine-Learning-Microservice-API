@@ -8,7 +8,7 @@ dockerpath=zhangjyu/house_flask:v1.0
 
 # Step 2
 # Run the Docker Hub container with kubernetes
-kubectl run house_flask --port=80 --image=$dockerpath
+kubectl run houseflask --port=80 --image=$dockerpath
 
 # Step 3:
 # List kubernetes pods
