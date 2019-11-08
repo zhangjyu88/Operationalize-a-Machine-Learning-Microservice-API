@@ -4,11 +4,11 @@
 
 # Step 1:
 # This is your Docker ID/path
-dockerpath=zhangjyu/bostonhouseflasktest:v1.0
+dockerpath=zhangjyu/house_flask:v1.0
 
 # Step 2
 # Run the Docker Hub container with kubernetes
-kubectl run bostonhouseflasktest --port=80 --image=$dockerpath
+kubectl run house_flask --port=80 --image=$dockerpath
 
 # Step 3:
 # List kubernetes pods
