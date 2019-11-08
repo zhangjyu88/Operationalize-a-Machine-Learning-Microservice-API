@@ -2,4 +2,5 @@ scikit-learn==0.20.2
 flask
 numpy
 pandas
+scikit-learn
 pylint
